@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:wght@500&family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&amp;subset=cyrillic" rel="stylesheet">
+    <title>Neupusti</title>
+</head>
+<body>
+    <main class="mainn">
+        <header>
+            <div class="main-header">
+                   <div class="main-header__block">
+                        <div class="main-header__logo">
+                           <a href="index.html"><img class="logo_img" src="https://neupusti.net/static/media/logo.129dd8b4.svg" alt="logo"></a>
+                        </div>
+                        <div class="main-header__nav">
+                            <ul>
+                                <li class="nav__links"><a href="#">Блог</a></li>
+                                <li class="nav__links"><a href="#">Гранты и стипендии</a></li>
+                                <li class="nav__links"><a href="#">Стажировки</a></li>
+                                <li class="nav__linksl">Возможности</li>
+                            </ul>
+                        </div>
+                        <div class="main-header__registration">
+                            <a href="index2.html">Вход/Регистрация</a>
+                        </div> 
+                   </div>
+            </div>
+            <div class="line"></div>
+        </header>
+
+        <section>
+            <div class="main-page">
+                <div class="main-page__content1">
+                    <h1>Вход</h1>
+                </div>
+
+                <div class="main-page__content2_3">
+
+                <div class="main-page__content2">
+                    <p>Электронный адрес</p>
+                        <div class="login__input">
+                            <input class="datalist-input" list="grants" name="email" id="email" placeholder="Введите ваш электронный адресс">
+                        </div>
+
+                    <p>Пароль</p>
+                        <div class="login__input">
+                            <input class="datalist-input" list="grants" name="password" id="password" placeholder="Введите пароль">
+                        </div>
+
+                    <div class="ui checkbox" style="margin-bottom: 16px; font-size: 12px;">
+                        <input class="hidden" readonly="" tabindex="0" type="checkbox" value=""><label>Не выходить из системы</label>
+                    </div>
+
+                    <div class="login__button">
+                        <form action="app2.js">
+                            <button class="button__primary__wide">
+                                    <span class="button__primary__wide__title">Войти</span>
+                        </button>
+                    </form>
+
+                    </div>
+
+                    <div class="main-page__content2__foot">
+                        <p>Нет аккаунта? <a href="registration.html">Зарегистрироваться</a></p>
+                    </div>
+                </div>
+
+                <div class="main-page__content3">
+                    <div class="logos__content3">
+                        <div class="logos__vk">
+                            <form action="https://vk.com/">
+                            <button class="btn__vk">
+                                <p>
+                                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 576 512" size="17" color="white" height="32" width="32" xmlns="http://www.w3.org/2000/svg" style="color: white;"><path d="M545 117.7c3.7-12.5 0-21.7-17.8-21.7h-58.9c-15 0-21.9 7.9-25.6 16.7 0 0-30 73.1-72.4 120.5-13.7 13.7-20 18.1-27.5 18.1-3.7 0-9.4-4.4-9.4-16.9V117.7c0-15-4.2-21.7-16.6-21.7h-92.6c-9.4 0-15 7-15 13.5 0 14.2 21.2 17.5 23.4 57.5v86.8c0 19-3.4 22.5-10.9 22.5-20 0-68.6-73.4-97.4-157.4-5.8-16.3-11.5-22.9-26.6-22.9H38.8c-16.8 0-20.2 7.9-20.2 16.7 0 15.6 20 93.1 93.1 195.5C160.4 378.1 229 416 291.4 416c37.5 0 42.1-8.4 42.1-22.9 0-66.8-3.4-73.1 15.4-73.1 8.7 0 23.7 4.4 58.7 38.1 40 40 46.6 57.9 69 57.9h58.9c16.8 0 25.3-8.4 20.4-25-11.2-34.9-86.9-106.7-90.3-111.5-8.7-11.2-6.2-16.2 0-26.2.1-.1 72-101.3 79.4-135.6z"></path></svg>Войти через Вконтакте</p></button>
+                        </div></form>
+
+                        <div class="logos_mail">
+                        <form action="https://mail.ru/">
+                            <button class="btn__mail">
+                                <p>
+                                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" size="32" color="#FFA930" height="32" width="32" xmlns="http://www.w3.org/2000/svg" style="color: rgb(255, 169, 48);"><path d="M256 8C118.941 8 8 118.919 8 256c0 137.059 110.919 248 248 248 48.154 0 95.342-14.14 135.408-40.223 12.005-7.815 14.625-24.288 5.552-35.372l-10.177-12.433c-7.671-9.371-21.179-11.667-31.373-5.129C325.92 429.757 291.314 440 256 440c-101.458 0-184-82.542-184-184S154.542 72 256 72c100.139 0 184 57.619 184 160 0 38.786-21.093 79.742-58.17 83.693-17.349-.454-16.91-12.857-13.476-30.024l23.433-121.11C394.653 149.75 383.308 136 368.225 136h-44.981a13.518 13.518 0 0 0-13.432 11.993l-.01.092c-14.697-17.901-40.448-21.775-59.971-21.775-74.58 0-137.831 62.234-137.831 151.46 0 65.303 36.785 105.87 96 105.87 26.984 0 57.369-15.637 74.991-38.333 9.522 34.104 40.613 34.103 70.71 34.103C462.609 379.41 504 307.798 504 232 504 95.653 394.023 8 256 8zm-21.68 304.43c-22.249 0-36.07-15.623-36.07-40.771 0-44.993 30.779-72.729 58.63-72.729 22.292 0 35.601 15.241 35.601 40.77 0 45.061-33.875 72.73-58.161 72.73z"></path></svg> Войти через Mail.ru
+                                </p>
+                            </button>
+                        </div>
+                    </form>
+
+                        <div class="logos_gmail">
+                            <form action="https://mail.google.com/">
+                            <button class="btn__gmail">
+                                <p>
+                                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 488 512" size="32" color="white" height="32" width="32" xmlns="http://www.w3.org/2000/svg" style="color: white;"><path d="M488 261.8C488 403.3 391.1 504 248 504 110.8 504 0 393.2 0 256S110.8 8 248 8c66.8 0 123 24.5 166.3 64.9l-67.5 64.9C258.5 52.6 94.3 116.6 94.3 256c0 86.5 69.1 156.6 153.7 156.6 98.2 0 135-70.4 140.8-106.9H248v-85.3h236.1c2.3 12.7 3.9 24.9 3.9 41.4z"></path></svg> Войти через Google
+                                </p>
+                            </button>
+                        </div>
+                    </form>
+
+                        <div class="logos_facebook">
+                            <form action="https://www.facebook.com/">
+                            <button class="btn__facebook">
+                                <p>
+                                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 320 512" size="32" color="white" height="32" width="32" xmlns="http://www.w3.org/2000/svg" style="color: white;"><path d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"></path></svg> Войти через Facebook
+                                </p> 
+
+                            </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+            
+        
+        <footer>
+            <div class="main-footer">
+                <div class="footer__contact">
+                    <div class="contact__logo">
+                        <img src="https://neupusti.net/static/media/logo.15c4499c.svg" alt="logo">
+                    </div>
+                    <div class="contact__links">
+                        <div class="links__col">
+                            <ul>
+                                <li><a href="#">Блог</a></li>
+                                <li><a href="#">Гранты и стипендии</a></li>
+                                <li><a href="#">Стажировки</a></li>
+                                <li><a href="#">Волонтерство</a></li>
+                                <li><a href="#">События</a></li>
+                                <li><a href="#">Конкурсы</a></li>
+                            </ul>
+                        </div>
+                        <div class="links__col">
+                            <ul>
+                                <li><a href="#">Предложить анонс</a></li>
+                                <li><a href="#">Реклама</a></li>
+                            </ul>
+                        </div>
+                        <div class="links__col">
+                            <ul>
+                                <li><a href="#">О нас</a></li>
+                                <li><a href="#">FAQ</a></li>
+                                <li><a href="#">Контакты</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+                
+                <div class="footer__log">
+                    <span class="footer__text">Neupusti (c) 2021. Все права защищены.</span>
+                    <div class="footer__icons">
+                        <div class="footer__icons_item">
+                                <img src="https://img.icons8.com/material/30/000000/twitter-squared.png"/>
+                        </div>
+                        <div class="footer__icons_item">
+                                <img src="https://img.icons8.com/ios-filled/30/000000/facebook-f.png"/>
+                        </div>
+                        <div class="footer__icons_item">
+                                <img src="https://img.icons8.com/ios-glyphs/30/000000/linkedin-2--v1.png"/>
+                        </div>
+                        <div class="footer__icons_item">
+                                <img src="https://img.icons8.com/ios-glyphs/30/000000/youtube-play.png"/>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </footer>
+    </main>
+    <script type="text/javascript" src="app2.js"></script>
+</body>
+</html>

@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:wght@500&family=Roboto:wght@100;300&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open' sans;
+    overflow-x: hidden;
+
+}
+/* ================Header====================== */
+.main-header{
+    width: 100vw;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+.main-header__block {
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 200px;
+}
+.main-header__nav ul{
+    display: grid;
+    grid-template-columns: repeat(4, 150px);
+    gap: 15px;
+    list-style: none;
+    text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: Open Sans;
+}
+.main-header__block a{
+    text-decoration: none;
+    color: #585b5e;
+    transition: .3s;
+
+}
+.main-header__block a:hover{
+    color: #20befc;
+}
+.nav__linksl{
+    color: #585b5e;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: Open Sans;
+}
+.main-header__registration a{
+    text-decoration: none;
+    color: #585b5e;
+    font-size: 13px;
+    font-weight: bold;
+    position: relative;
+    right: -200px;
+    font-family: Open Sans;
+}
+.line{
+    color: lightgrey;
+}
+
+/*============Main page===========*/
+.main-page{
+    display: flex;
+}
+.main-page__tittle a{
+    margin-top: 20px;
+    color: black;
+    font-family: Open Sans;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.main-page__tittle{
+    margin-top: 50px;
+}
+
+.main-page__content1{
+    width: 50%;
+    margin-left: 200px;
+    margin-right: 50px;
+}
+
+.main-page__paragraph1 p{
+    margin-top: 50px;
+    font-family: Open Sans;
+    font-size: 15px;
+}
+
+h1{
+    font-size: 34px;
+    font-family: Open Sans;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.main-page__paragraph2 h3{
+    font-size: 17px;
+    font-family: Open Sans;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.main-page__paragraph2 p{
+    font-family: Open Sans;
+    font-size: 15px;
+}
+
+.main-page__paragraph3{
+    position: relative;
+    top: 20px;
+    margin-bottom: 20px;
+}
+
+.main-page__paragraph3 h3{
+    font-size: 17px;
+    font-family: Open Sans;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.content1__text3{
+    font-family: Open Sans;
+    font-size: 15px; 
+}
+
+.main-page__paragraph4 a{
+    margin-top: 20px;
+    font-family: Open Sans;
+    font-size: 15px;
+    color: #20befc;
+    text-decoration: none;
+    transition: all 0.25s;
+    cursor: pointer;
+    position: relative;
+    top: 64px;
+} 
+
+.main-page__paragraph4 a:hover{
+    color: #007bff;
+}
+
+.section__details__logo{
+    margin-bottom: 32px;
+}
+.passport__info__wrapper {
+    border: 1px solid #e1e1e1;
+    border-radius: 8px;
+    margin-top: 0;
+}
+
+.passport__info {
+    padding: 20px;
+}
+
+.passport__name {
+    font-size: 13px;
+    font-family: Open Sans;
+    font-weight: normal;
+    margin-bottom: 5px;
+}
+
+.passport__information {
+    font-size: 17px;
+    font-family: Open Sans;
+    font-weight: bold;
+    margin-bottom: 20px;
+    overflow-wrap: break-word;
+}
+
+.button__outline__wide {
+    text-align: center;
+    font-weight: bold;
+    border: 1.5px solid #20befc;
+    border-radius: 30px;
+    background-color: white;
+    color: #20befc;
+    padding: 12px;
+    outline: none;
+    width: 100%;
+    transition: all 0.25s;
+    -moz-transition: all 0.25s;
+    -o-transition: all 0.25s;
+}
+
+.button__outline__wide:hover{
+    background: #20befc; 
+    color: white;
+    cursor: pointer;
+}
+
+.button__primary__wide {
+    width: 100%;
+    color: white;
+    font-weight: bold;
+    background-color: #20befc;
+    border-radius: 32px;
+    padding: 12px;
+    text-align: center;
+    border: none;
+    outline: none;
+    transition: all 0.25s;
+    -moz-transition: all 0.25s;
+    -o-transition: all 0.25s;
+}
+
+.button__primary__wide:hover{
+    background: rgb(51, 172, 253);
+    color: white;
+    cursor: pointer;
+}
+
+
+
+
+/*==========Footer=========*/
+.main-footer{
+    margin-top: 40px;
+    width: 100vw;
+}
+.footer__contact ul{
+    list-style: none;
+}
+.footer__contact{
+    background: #282d31;
+    display: flex;
+    width: 100vw;
+    height: 340px;
+}
+.contact__logo{
+    position: relative;
+    left: 200px;
+    top: 14%;
+}
+.contact__links{    
+    display: grid;
+    grid-gap: 80px;
+    grid-template-columns: repeat(3, 205px);
+    align-items: stretch;
+    position: relative;
+    top: 8%;
+    left: 24%;
+}
+.links__col a{
+    color: white;
+    text-decoration: none;
+    line-height: 2.5;
+    font-size: 0.95rem;
+    font-weight: normal;
+}
+.links__col a:hover{
+    color: #20befc;
+}
+
+.footer__log{
+    width: 100vw;
+    height: 80px;
+    background: #1d242c;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer__text{
+    color: rgb(143, 143, 143);
+    font-size: 14px;
+    margin-left: 15px;
+}
+
+.footer__icons {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 280px;
+    position: relative;
+    left: -35px;
+}
+.footer__icons img{
+
+    width: 22px;
+}
+.footer__icons_item > img {
+    filter: brightness(1) invert(1);
+}

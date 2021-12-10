@@ -1,0 +1,180 @@
+<a href="index.html"><img class="logo_img" src="https://neupusti.net/static/media/logo.129dd8b4.svg" alt="logo"></a><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mystyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <title>Neupusti</title>
+</head>
+<body>
+    <main class="mainn">
+        <header>
+            <div class="main-header">
+                   <div class="main-header__block">
+                        <div class="main-header__logo">
+                            <a href="index.html"><img class="logo_img" src="https://neupusti.net/static/media/logo.129dd8b4.svg" alt="logo"></a>                        </div>
+                        <div class="main-header__nav">
+                            <ul>
+                                <li class="nav__links"><a href="#">Блог</a></li>
+                                <li class="nav__links"><a href="#">Гранты и стипендии</a></li>
+                                <li class="nav__links"><a href="#">Стажировки</a></li>
+
+                                <li class="nav_links"><a href="#">Возможности</a></li>
+                    </ul>
+                </div>
+
+
+                            
+                        <div class="main-header__registration">
+                            <a href="index2.html">Вход/Регистрация</a>
+                        </div> 
+                   </div>
+            </div>
+        </header>
+
+        <section>
+            <h1>Регистрация</h1>
+            
+            <h5>Уже есть аккаунт?<a href="index2.html">Выполнить вход</a></h5>
+           <form class="form" action="indexRegister.html" method="post">
+                <div class="inForm">
+          <div class="inForm__firstName-section">
+                        <label class="inForm__labelText" for="firstName">Имя пользователя</label>
+            <input id="firstName" class="inForm__input firstName" type="text" name="firstName" placeholder="Введите имя пользователя">
+            <label for="firstName" class="disap" id="error1">
+              <div class="requiredCaution-label">
+                        <div class="requiredCaution__icon-label"></div>
+                        <div class="requiredCaution_text-label">
+                            <p>Введите имя пользователя</p>
+                        </div>
+                    </div>
+           </label>
+                    </div>
+                    <div class="inForm__email-section">
+                        <label class="inForm__labelText" for="email">Электронный адрес</label>
+            <input id="email" class="inForm__input email" type="text" name="email" placeholder="Введите ваш электронный адрес">
+            <label for="email" class="disap" id="error2">
+              <div class="requiredCaution-label">
+                        <div class="requiredCaution__icon-label"></div>
+                        <div class="requiredCaution_text-label">
+                            <p>Введите ваш электронный адрес</p>
+                        </div>
+                    </div>
+           </label>
+                    </div>
+                     
+
+          <div class="inForm__password-section">
+                        <label class="inForm__labelText" for="password">Пароль</label>
+            <input id="password" class="inForm__input password" type="password" name="password" placeholder="Придумайте пароль">
+            <label for="password" class="disap" id="error3">
+              <div class="requiredCaution-label">
+                        <div class="requiredCaution__icon-label"></div>
+                        <div class="requiredCaution_text-label">
+                            <p>Пароль должен содержать не менее 8 символов, и должен содержать хотя бы одну букву и одну цифру</p>
+                        </div>
+                    </div>
+           </label>
+                    </div>
+
+            <div class="inForm__passwordagain-section">
+                        <label class="inForm__labelText" for="passwordagain">Подтверждение пароля</label>
+            <input id="passwordagain" class="inForm__input passwordagain" type="password" name="passwordagain" placeholder="Повторите ваш пароль">
+            <label for="password" class="disap" id="error4">
+              <div class="requiredCaution-label">
+                        <div class="requiredCaution__icon-label"></div>
+                        <div class="requiredCaution_text-label">
+                            <p>Подтвердите ваш пароль</p>
+                        </div>
+                    </div>
+           </label>
+                    </div>
+
+          <!-- button -->
+                    <div class="inForm__register-button">
+                        <button class="inform__button" type="button" onclick="add()" name="button"> <span class="inform__buttonSpan">Register</span></button>
+                    </div>
+          <div class="inform__document">
+            <p class="inform__document-term">
+              By clicking Register I agree to FutureLearn’s
+              <!-- -->
+              <a href="/info/terms">Terms &amp; Conditions</a>
+              <!--target="blank" -->
+              and
+              <!-- -->
+              <a href="/info/terms/privacy-policy">Privacy Policy</a>, and I agree to abide by the
+              <!-- -->
+              <a href="/info/terms/code-of-conduct">Code of Conduct</a>
+            </p>
+          </div>
+                </div>
+            </form>
+      <!--  -->
+        </section>
+
+        <footer>
+            <div class="main-footer">
+                <div class="footer__contact">
+                    <div class="contact__logo">
+                        <img src="https://neupusti.net/static/media/logo.15c4499c.svg" alt="logo">
+                    </div>
+                    <div class="contact__links">
+                        <div class="links__col">
+                            <ul>
+                                <li><a href="#">Блог</a></li>
+                                <li><a href="#">Гранты и стипендии</a></li>
+                                <li><a href="#">Стажировки</a></li>
+                                <li><a href="#">Волонтерство</a></li>
+                                <li><a href="#">События</a></li>
+                                <li><a href="#">Конкурсы</a></li>
+                            </ul>
+                        </div>
+                        <div class="links__col">
+                            <ul>
+                                <li><a href="#">Предложить анонс</a></li>
+                                <li><a href="#">Реклама</a></li>
+                            </ul>
+                        </div>
+                        <div class="links__col">
+                            <ul>
+                                <li><a href="#">О нас</a></li>
+                                <li><a href="#">FAQ</a></li>
+                                <li><a href="#">Контакты</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+                
+                <div class="footer__log">
+                    <span class="footer__text">Neupusti (c) 2021. Все права защищены.</span>
+                    <div class="footer__icons">
+                        <div class="footer__icons_item">
+                                <img src="https://img.icons8.com/material/30/000000/twitter-squared.png"/>
+                        </div>
+                        <div class="footer__icons_item">
+                                <img src="https://img.icons8.com/ios-filled/30/000000/facebook-f.png"/>
+                        </div>
+                        <div class="footer__icons_item">
+                                <img src="https://img.icons8.com/ios-glyphs/30/000000/linkedin-2--v1.png"/>
+                        </div>
+                        <div class="footer__icons_item">
+                                <img src="https://img.icons8.com/ios-glyphs/30/000000/youtube-play.png"/>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </footer>
+
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+
+    <script src="appregis.js"></script>
+</body>
+</html>

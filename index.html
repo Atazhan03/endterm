@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&amp;subset=cyrillic" rel="stylesheet">
+    <title>Neupusti</title>
+</head>
+<body>
+    <main class="mainn">
+        <header>
+            <div class="main-header">
+                   <div class="main-header__block">
+                        <div class="main-header__logo">
+                            <a href="index.html"><img class="logo_img" src="https://neupusti.net/static/media/logo.129dd8b4.svg" alt="logo"></a>
+                        </div>
+                        <div class="main-header__nav">
+                            <ul>
+                                <li class="nav__links"><a href="#">Блог</a></li>
+                                <li class="nav__links"><a href="#">Гранты и стипендии</a></li>
+                                <li class="nav__links"><a href="#">Стажировки</a></li>
+                                <li class="nav__linksl">Возможности</li>
+                            </ul>
+                        </div>
+                        <div class="main-header__registration">
+                            <a href="index2.html">Вход/Регистрация</a>
+                        </div> 
+                   </div>
+            </div>
+        </header>
+
+        <section>
+            <div class="main-page">
+                <div class="main-page__wrapper">
+                    <div class="wrapper__search">
+                        <div class="search__head">
+                            <span class="head-title">Не упусти</span>&nbsp; <span id="typed"></span>
+                            <div id="head__strings">
+                                <span class="head-title2">Гранты</span>
+                                <span class="head-title2">Стипендии</span>
+                                <span class="head-title2">Стажировки</span>
+                                <span class="head-title2">События</span>
+                                <span class="head-title2">Конкурсы</span>
+                            </div>
+                        </div>
+                        
+                        <div class="search__text">
+                            <span class="text__one">$500,000,000</span><br>
+                            <span class="text__two">Полученных грантов нашими пользователями</span>
+                        </div>
+                        <div class="search__input">
+                            <form action="index.html">
+                                <input class="datalist-input" list="grants" name="grant" placeholder="Выбрать">
+                                    <datalist id="grants">
+                                        <option value="Гранты и стипендии">
+                                        <option value="Стажировки">
+                                        <option value="Конкурсы">
+                                        <option value="Волонтерство">
+                                        <option value="События">
+                                    </datalist>
+
+                                <input list="country" name="country" placeholder="Выбрать страну" class="datalist-input" />
+                                    <datalist id="country">
+                                        <option value="Afghanistan" />
+                                        <option value="Albania" />
+                                        <option value="Algeria" />
+                                        <option value="American Samoa" />
+                                        <option value="Andorra" />
+                                        <option value="Angola" />
+                                        <option value="Anguilla" />
+                                        <option value="Antarctica" />
+                                        <option value="Antigua and Barbuda" />
+                                        <option value="Argentina" />
+                                        <option value="Armenia" />
+                                        <option value="Aruba" />
+                                        <option value="Australia" />
+                                        <option value="Austria" />
+                                        <option value="Azerbaijan" />
+                                        <option value="Bahamas" />
+                                        <option value="Bahrain" />
+                                        <option value="Bangladesh" />
+                                        <option value="Barbados" />
+                                        <option value="Belarus" />
+                                        <option value="Belgium" />
+                                        <option value="Belize" />
+                                        <option value="Benin" />
+                                        <option value="Bermuda" />
+                                        <option value="Bhutan" />
+                                        <option value="Bolivia" />
+                                        <option value="Bosnia and Herzegovina" />
+                                        <option value="Botswana" />
+                                        <option value="Bouvet Island" />
+                                        <option value="Brazil" />
+                                        <option value="British Indian Ocean Territory" />
+                                        <option value="Brunei Darussalam" />
+                                        <option value="Bulgaria" />
+                                        <option value="Burkina Faso" />
+                                        <option value="Burundi" />
+                                        <option value="Cambodia" />
+                                        <option value="Cameroon" />
+                                        <option value="Canada" />
+                                        <option value="Cape Verde" />
+                                        <option value="Cayman Islands" />
+                                        <option value="Central African Republic" />
+                                        <option value="Chad" />
+                                        <option value="Chile" />
+                                        <option value="China" />
+                                        <option value="Christmas Island" />
+                                        <option value="Cocos (Keeling) Islands" />
+                                        <option value="Colombia" />
+                                        <option value="Comoros" />
+                                        <option value="Congo" />
+                                        <option value="Congo, The Democratic Republic of The" />
+                                        <option value="Cook Islands" />
+                                        <option value="Costa Rica" />
+                                        <option value="Cote D'ivoire" />
+                                        <option value="Croatia" />
+                                        <option value="Cuba" />
+                                        <option value="Cyprus" />
+                                        <option value="Czech Republic" />
+                                        <option value="Denmark" />
+                                        <option value="Djibouti" />
+                                        <option value="Dominica" />
+                                        <option value="Dominican Republic" />
+                                        <option value="Ecuador" />
+                                        <option value="Egypt" />
+                                        <option value="El Salvador" />
+                                        <option value="Equatorial Guinea" />
+                                        <option value="Eritrea" />
+                                        <option value="Estonia" />
+                                        <option value="Ethiopia" />
+                                        <option value="Falkland Islands (Malvinas)" />
+                                        <option value="Faroe Islands" />
+                                        <option value="Fiji" />
+                                        <option value="Finland" />
+                                        <option value="France" />
+                                        <option value="French Guiana" />
+                                        <option value="French Polynesia" />
+                                        <option value="French Southern Territories" />
+                                        <option value="Gabon" />
+                                        <option value="Gambia" />
+                                        <option value="Georgia" />
+                                        <option value="Germany" />
+                                        <option value="Ghana" />
+                                        <option value="Gibraltar" />
+                                        <option value="Greece" />
+                                        <option value="Greenland" />
+                                        <option value="Grenada" />
+                                        <option value="Guadeloupe" />
+                                        <option value="Guam" />
+                                        <option value="Guatemala" />
+                                        <option value="Guinea" />
+                                        <option value="Guinea-bissau" />
+                                        <option value="Guyana" />
+                                        <option value="Haiti" />
+                                        <option value="Heard Island and Mcdonald Islands" />
+                                        <option value="Holy See (Vatican City State)" />
+                                        <option value="Honduras" />
+                                        <option value="Hong Kong" />
+                                        <option value="Hungary" />
+                                        <option value="Iceland" />
+                                        <option value="India" />
+                                        <option value="Indonesia" />
+                                        <option value="Iran, Islamic Republic of" />
+                                        <option value="Iraq" />
+                                        <option value="Ireland" />
+                                        <option value="Israel" />
+                                        <option value="Italy" />
+                                        <option value="Jamaica" />
+                                        <option value="Japan" />
+                                        <option value="Jordan" />
+                                        <option value="Kazakhstan" />
+                                        <option value="Kenya" />
+                                        <option value="Kiribati" />
+                                        <option value="Korea, Democratic People's Republic of" />
+                                        <option value="Korea, Republic of" />
+                                        <option value="Kuwait" />
+                                        <option value="Kyrgyzstan" />
+                                        <option value="Lao People's Democratic Republic" />
+                                        <option value="Latvia" />
+                                        <option value="Lebanon" />
+                                        <option value="Lesotho" />
+                                        <option value="Liberia" />
+                                        <option value="Libyan Arab Jamahiriya" />
+                                        <option value="Liechtenstein" />
+                                        <option value="Lithuania" />
+                                        <option value="Luxembourg" />
+                                        <option value="Macao" />
+                                        <option value="Macedonia, The Former Yugoslav Republic of" />
+                                        <option value="Madagascar" />
+                                        <option value="Malawi" />
+                                        <option value="Malaysia" />
+                                        <option value="Maldives" />
+                                        <option value="Mali" />
+                                        <option value="Malta" />
+                                        <option value="Marshall Islands" />
+                                        <option value="Martinique" />
+                                        <option value="Mauritania" />
+                                        <option value="Mauritius" />
+                                        <option value="Mayotte" />
+                                        <option value="Mexico" />
+                                        <option value="Micronesia, Federated States of" />
+                                        <option value="Moldova, Republic of" />
+                                        <option value="Monaco" />
+                                        <option value="Mongolia" />
+                                        <option value="Montserrat" />
+                                        <option value="Morocco" />
+                                        <option value="Mozambique" />
+                                        <option value="Myanmar" />
+                                        <option value="Namibia" />
+                                        <option value="Nauru" />
+                                        <option value="Nepal" />
+                                        <option value="Netherlands" />
+                                        <option value="Netherlands Antilles" />
+                                        <option value="New Caledonia" />
+                                        <option value="New Zealand" />
+                                        <option value="Nicaragua" />
+                                        <option value="Niger" />
+                                        <option value="Nigeria" />
+                                        <option value="Niue" />
+                                        <option value="Norfolk Island" />
+                                        <option value="Northern Mariana Islands" />
+                                        <option value="Norway" />
+                                        <option value="Oman" />
+                                        <option value="Pakistan" />
+                                        <option value="Palau" />
+                                        <option value="Palestinian Territory, Occupied" />
+                                        <option value="Panama" />
+                                        <option value="Papua New Guinea" />
+                                        <option value="Paraguay" />
+                                        <option value="Peru" />
+                                        <option value="Philippines" />
+                                        <option value="Pitcairn" />
+                                        <option value="Poland" />
+                                        <option value="Portugal" />
+                                        <option value="Puerto Rico" />
+                                        <option value="Qatar" />
+                                        <option value="Reunion" />
+                                        <option value="Romania" />
+                                        <option value="Russian Federation" />
+                                        <option value="Rwanda" />
+                                        <option value="Saint Helena" />
+                                        <option value="Saint Kitts and Nevis" />
+                                        <option value="Saint Lucia" />
+                                        <option value="Saint Pierre and Miquelon" />
+                                        <option value="Saint Vincent and The Grenadines" />
+                                        <option value="Samoa" />
+                                        <option value="San Marino" />
+                                        <option value="Sao Tome and Principe" />
+                                        <option value="Saudi Arabia" />
+                                        <option value="Senegal" />
+                                        <option value="Serbia and Montenegro" />
+                                        <option value="Seychelles" />
+                                        <option value="Sierra Leone" />
+                                        <option value="Singapore" />
+                                        <option value="Slovakia" />
+                                        <option value="Slovenia" />
+                                        <option value="Solomon Islands" />
+                                        <option value="Somalia" />
+                                        <option value="South Africa" />
+                                        <option value="South Georgia and The South Sandwich Islands" />
+                                        <option value="Spain" />
+                                        <option value="Sri Lanka" />
+                                        <option value="Sudan" />
+                                        <option value="Suriname" />
+                                        <option value="Svalbard and Jan Mayen" />
+                                        <option value="Swaziland" />
+                                        <option value="Sweden" />
+                                        <option value="Switzerland" />
+                                        <option value="Syrian Arab Republic" />
+                                        <option value="Taiwan, Province of China" />
+                                        <option value="Tajikistan" />
+                                        <option value="Tanzania, United Republic of" />
+                                        <option value="Thailand" />
+                                        <option value="Timor-leste" />
+                                        <option value="Togo" />
+                                        <option value="Tokelau" />
+                                        <option value="Tonga" />
+                                        <option value="Trinidad and Tobago" />
+                                        <option value="Tunisia" />
+                                        <option value="Turkey" />
+                                        <option value="Turkmenistan" />
+                                        <option value="Turks and Caicos Islands" />
+                                        <option value="Tuvalu" />
+                                        <option value="Uganda" />
+                                        <option value="Ukraine" />
+                                        <option value="United Arab Emirates" />
+                                        <option value="United Kingdom" />
+                                        <option value="United States" />
+                                        <option value="United States Minor Outlying Islands" />
+                                        <option value="Uruguay" />
+                                        <option value="Uzbekistan" />
+                                        <option value="Vanuatu" />
+                                        <option value="Venezuela" />
+                                        <option value="Viet Nam" />
+                                        <option value="Virgin Islands, British" />
+                                        <option value="Virgin Islands, U.S" />
+                                        <option value="Wallis and Futuna" />
+                                        <option value="Western Sahara" />
+                                        <option value="Yemen" />
+                                        <option value="Zambia" />
+                                        <option value="Zimbabwe" />
+                                    </datalist>
+                            </form>
+                        </div>
+                        
+                        <form action="index1.html">
+                        <button class="search__button" >НЕ УПУСТИТЬ!</button>
+                        </form>
+                    </div>
+
+                    <div class="wrapper__slide">
+                        <div class="slide__blockmain">
+                            <div class="slide__block">
+                                <div class="block1">События</div>
+                                <div class="block__img"><img src="https://server.neupusti.net/uploads/organization-images/JhT4XHA5Eq6XkSeA59TYg_182x134.png" alt="img">
+                                </div>
+                                <div class="block__deadline"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="main__card__icon" color="#292A34" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" style="color: rgb(41, 42, 52);"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z"></path></svg>
+                                    <span class="slide__deadline">Дедлайн: 167 дней</span>
+                                </div>
+                                <div class="block__text">ETH Цюрих - 2022 Летняя школа</div>
+                            </div>
+                            <div class="slide__block">
+                                <div class="block2">Конкурсы</div>
+                                <div class="block__img"><img src="https://server.neupusti.net/uploads/organization-images/t42AutJkN0aaqMPCXWPtZQ_182x134.png" alt="img"></div>
+                                <div class="block__deadline"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="main__card__icon" color="#292A34" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" style="color: rgb(41, 42, 52);"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z"></path></svg>
+                                    <span class="slide__deadline">Дедлайн: 36 дней</span>
+                                </div>
+                                <div class="block__text">Конкурс от ассоциации ПЕЙДЖ</div>
+                            </div>
+                            <div class="slide__block">
+                                <div class="block3">Гранты и стипендии</div>
+                                <div class="block__img"><img src="https://server.neupusti.net/uploads/organization-images/pOGZ1lDoTEWXLMr1TjbkoQ_182x134.jpg" alt="img"></div>
+                                <div class="block__deadline"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="main__card__icon" color="#292A34" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" style="color: rgb(41, 42, 52);"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z"></path></svg>
+                                    <span class="slide__deadline">Дедлайн: 32 дня</span>
+                                </div>
+                                <div class="block__text">Erasmus Mundus - Магистр журналистики, СМИ и глобализации</div>
+                            </div>
+                        </div>
+                        </div>
+                </div>
+                
+                <div class="main-page__partners">
+                    <div class="shortline"></div>
+                    <div class="partners__title">
+                        Наши партнеры
+                    </div>
+                    <div class="partners__list">
+                        <img src="partners.png" alt="png">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="main-footer">
+                <div class="footer__contact">
+                    <div class="contact__logo">
+                        <img src="https://neupusti.net/static/media/logo.15c4499c.svg" alt="logo">
+                    </div>
+                    <div class="contact__links">
+                        <div class="links__col">
+                            <ul>
+                                <li><a href="#">Блог</a></li>
+                                <li><a href="#">Гранты и стипендии</a></li>
+                                <li><a href="#">Стажировки</a></li>
+                                <li><a href="#">Волонтерство</a></li>
+                                <li><a href="#">События</a></li>
+                                <li><a href="#">Конкурсы</a></li>
+                            </ul>
+                        </div>
+                        <div class="links__col">
+                            <ul>
+                                <li><a href="#">Предложить анонс</a></li>
+                                <li><a href="#">Реклама</a></li>
+                            </ul>
+                        </div>
+                        <div class="links__col">
+                            <ul>
+                                <li><a href="#">О нас</a></li>
+                                <li><a href="#">FAQ</a></li>
+                                <li><a href="#">Контакты</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+                
+                <div class="footer__log">
+                    <span class="footer__text">Neupusti (c) 2021. Все права защищены.</span>
+                    <div class="footer__icons">
+                        <div class="footer__icons_item">
+                                <img src="https://img.icons8.com/material/30/000000/twitter-squared.png"/>
+                        </div>
+                        <div class="footer__icons_item">
+                                <img src="https://img.icons8.com/ios-filled/30/000000/facebook-f.png"/>
+                        </div>
+                        <div class="footer__icons_item">
+                                <img src="https://img.icons8.com/ios-glyphs/30/000000/linkedin-2--v1.png"/>
+                        </div>
+                        <div class="footer__icons_item">
+                                <img src="https://img.icons8.com/ios-glyphs/30/000000/youtube-play.png"/>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </footer>
+
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+
+    <script src="app.js"></script>
+</body>
+</html>
